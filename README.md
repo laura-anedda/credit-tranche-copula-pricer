@@ -1,12 +1,11 @@
 # Credit-tranche Copula Pricer
 
-A one-factor Gaussian copula pricer for synthetic CDO and credit index
-tranches (CDX, iTraxx, and bespoke portfolios), with realistic CDS
-market conventions (day count, business-day adjustment, calendar-based
-premium schedules, accrued premium on default, upfront/running-spread
-quoting), a base correlation bootstrap, structured calibration
-diagnostics, and a standalone HTML analytics dashboard — implemented in
-modern, fully-typed Python.
+`credit-copula` is a modular Python library for synthetic credit portfolio tranche valuation under a one-factor Gaussian copula framework.
+
+It implements credit curve construction, portfolio loss modelling, expected tranche loss calculation, protection and premium leg valuation, base correlation calibration, numerical diagnostics, and static reporting.
+
+The codebase is organized around explicit modelling assumptions, date-based cash-flow conventions, deterministic numerical methods, and reproducible example inputs.
+
 
 
 ## Features
